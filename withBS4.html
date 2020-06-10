@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- bootstrap 4.x is supported. You can also use the bootstrap css 3.3.x versions -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" />
+  <link href="./css/bootstrap-popover-x.min.css" media="all" rel="stylesheet" type="text/css" />
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <!-- popper.min.js below is needed if you use bootstrap 4.x. You can also use the bootstrap js 
+   3.3.x versions without popper.min.js. -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <!-- bootstrap.min.js below is needed if you wish to zoom and preview file content in a detail modal
+    dialog. bootstrap 4.x is supported. You can also use the bootstrap js 3.3.x versions. -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+    type="text/javascript"></script>
+  <script src="./js/bootstrap-popover-x.min.js" type="text/javascript"></script>
+  <title>ProjectWithBS4</title>
+</head>
+
+<body>
+  <div class="container">
+    <button type="button" class="btn btn-primary" style="margin-right: 15px;" data-toggle="popover-x"
+      data-target="#myPopover1a" data-placement="bottom">
+      Primary
+    </button>
+    <button type="button" class="btn btn-info" style="margin-right: 15px;" data-toggle="popover-x"
+      data-target="#myPopover2a" data-placement="bottom">
+      Info
+    </button>
+    <button type="button" class="btn btn-danger" style="margin-right: 15px;" data-toggle="popover-x"
+      data-target="#myPopover3a" data-placement="bottom">
+      Danger
+    </button>
+    <button type="button" class="btn btn-success" style="margin-right: 15px;" data-toggle="popover-x"
+      data-target="#myPopover4a" data-placement="bottom">
+      Success
+    </button>
+    <button type="button" class="btn btn-warning" style="margin-right: 15px;" data-toggle="popover-x"
+      data-target="#myPopover5a" data-placement="bottom">
+      Warning
+    </button>
+    <button type="button" class="btn btn-secondary" style="margin-right: 15px;" data-toggle="popover-x"
+      data-target="#myPopover6a" data-placement="bottom">
+      Default
+    </button>
+
+    <!-- PopoverX content -->
+    <div id="myPopover1a" class="popover popover-x popover-primary">
+      <div class="arrow"></div>
+      <div class="popover-header popover-title">
+        <button type="button" class="close" data-dismiss="popover-x">
+          &times;</button>Title
+      </div>
+      <div class="popover-body popover-content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+          commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </p>
+      </div>
+    </div>
+
+    <!-- PopoverX content -->
+    <div id="myPopover2a" class="popover popover-x popover-info">
+      <div class="arrow"></div>
+      <div class="popover-header popover-title">
+        <button type="button" class="close" data-dismiss="popover-x">
+          &times;</button>Title
+      </div>
+      <div class="popover-body popover-content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+          commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </p>
+      </div>
+    </div>
+
+    <!-- PopoverX content -->
+    <div id="myPopover3a" class="popover popover-x popover-danger">
+      <div class="arrow"></div>
+      <div class="popover-header popover-title">
+        <button type="button" class="close" data-dismiss="popover-x">
+          &times;</button>Title
+      </div>
+      <div class="popover-body popover-content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+          commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </p>
+      </div>
+    </div>
+
+    <!-- PopoverX content -->
+    <div id="myPopover4a" class="popover popover-x popover-success">
+      <div class="arrow"></div>
+      <div class="popover-header popover-title">
+        <button type="button" class="close" data-dismiss="popover-x">
+          &times;</button>Title
+      </div>
+      <div class="popover-body popover-content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+          commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </p>
+      </div>
+    </div>
+
+    <!-- PopoverX content -->
+    <div id="myPopover5a" class="popover popover-x popover-warning">
+      <div class="arrow"></div>
+      <div class="popover-header popover-title">
+        <button type="button" class="close" data-dismiss="popover-x">
+          &times;</button>Title
+      </div>
+      <div class="popover-body popover-content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+          commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </p>
+      </div>
+    </div>
+
+    <!-- PopoverX content -->
+    <div id="myPopover6a" class="popover popover-x popover-default">
+      <div class="arrow"></div>
+      <div class="popover-header popover-title">
+        <button type="button" class="close" data-dismiss="popover-x">
+          &times;</button>Title
+      </div>
+      <div class="popover-body popover-content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+          commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </p>
+      </div>
+    </div>
+
+    <!-- Display advanced HTML content in popover with auto placement functionality -->
+    <!-- Button -->
+    <button type="button" class="btn btn-secondary btn-lg" data-toggle="popover-x" data-target="#myPopover1b"
+      data-placement="auto">
+      Login
+    </button>
+
+    <!-- PopoverX content -->
+    <form class="form-vertical">
+      <div id="myPopover1b" class="popover popover-x popover-default position-abolute">
+        <div class="arrow"></div>
+        <div class="popover-header popover-title">
+          <button type="button" class="close" data-dismiss="popover-x">
+            &times;</button>Enter credentials
+        </div>
+        <div class="popover-body popover-content">
+          <p class="text-justify">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor.
+          </p>
+          <div class="form-group">
+            <input class="form-control" placeholder="Username" />
+          </div>
+          <input type="password" class="form-control" placeholder="Password" />
+        </div>
+        <div class="popover-footer">
+          <button type="submit" class="btn btn-sm btn-primary">Submit</button>
+          <button type="reset" class="btn btn-sm btn-secondary">Reset</button>
+        </div>
+      </div>
+    </form>
+    <script>
+      $(document).dblclick(function (e) {
+        // use the popoverButton plugin
+        console.log(e.clientX);
+        console.log(e.clientY);
+        let left = e.pageX;
+        let top = e.pageY;
+        $("#myPopover1b").popoverX({ show: true });
+        $("#myPopover1b").css("left", left + "px");
+        $("#myPopover1b").css("top", top + "px");
+      });
+    </script>
+
+    <!-- Triggering popover via javascript. -->
+    <!-- Button -->
+    <button type="button" id="kv-btn-1" class="btn btn-secondary btn-lg">
+      Launch 1
+    </button>
+
+    <!-- PopoverX content -->
+    <div id="myPopover5" class="popover popover-x popover-default">
+      <div class="arrow"></div>
+      <div class="popover-header popover-title">
+        <button type="button" class="close" data-dismiss="popover-x">
+          &times;</button>My Header
+      </div>
+      <div class="popover-body popover-content">
+        <p class="text-justify">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+          commodo ligula eget dolor.
+        </p>
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        // use the popoverButton plugin
+        $("#kv-btn-1").popoverButton({
+          placement: "left",
+          target: "#myPopover5",
+        });
+      });
+    </script>
+
+    <!-- Triggering popover on hover/focus instead of click. -->
+    <!-- Button -->
+    <button type="button" id="kv-btn-2" class="btn btn-secondary btn-lg">
+      Launch 2
+    </button>
+
+    <!-- PopoverX content -->
+    <div id="myPopover6" class="popover popover-x popover-default">
+      <div class="arrow"></div>
+      <div class="popover-header popover-title">
+        <button type="button" class="close" data-dismiss="popover-x">
+          &times;</button>My Header
+      </div>
+      <div class="popover-body popover-content">
+        <p class="text-justify">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+          commodo ligula eget dolor.
+        </p>
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        $("#kv-btn-2").popoverButton({
+          trigger: "hover focus",
+          target: "#myPopover6",
+        });
+      });
+    </script>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+</body>
+
+</html>

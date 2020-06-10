@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /*
+        #container div {
+            float: left
+        }
+*/
+        .del {
+            font-size: 20px;
+            text-align: center;
+            color: #ccc;
+            background: transparent;
+            float: right;
+            margin-right: 10px;
+            position: absolute;
+
+        }
+
+        #labelList {
+            font-size: 20px;
+            text-indent: 50px;
+            line-height: 1.5;
+            display: contents;
+        }
+
+        .minipopup {
+
+            position: absolute;
+
+        }
+
+        .minipopup table {
+            -webkit-user-drag: none;
+            display: block;
+            border: solid;
+            list-style-type: none;
+            margin: 0px 0px 0px 0px;
+            padding-left: 0px;
+            border-collapse: collapse;
+        }
+
+        .focus {
+            position: absolute;
+            border: 1px solid red;
+            background-color: rgb(128, 0, 0, 0.3);
+            /*visibility: hidden;*/
+        }
+
+        .highlight {
+            -webkit-user-drag: none;
+            position: absolute;
+            border: 1px solid #000099;
+        }
+
+        img {
+            box-sizing: content-box;
+            -webkit-user-drag: none;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header></header>
+    <section id="container">
+        <div class="workspace">
+            <section id="view">
+
+                <div class="focus"></div>
+                <div class="minipopup">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="2">마우스</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>label</th>
+                                <td><span><input id="label" type="text"></span></td>
+                            </tr>
+                            <tr>
+                                <th>x</th>
+                                <td id="tdX">a1</td>
+                            </tr>
+                            <tr>
+                                <th>y</th>
+                                <td id="tdY">a2</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <div id="labelList">
+
+            </div>
+        </div>
+        <div class="btns">
+            <div class="loadimg">
+                <label for="Getimg">이미지를 선택하세요</label>
+                <input type="file" id="Getimg" accept=".jpg, .jpeg, .png">
+            </div>
+            <div>
+                <button id="ResetSw">작업내용 초기화</button>
+            </div>
+            <div>
+                <a href="#" id="link"><button id="DownSw">작업내용 받기</button></a>
+
+            </div>
+        </div>
+    </section>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="./js/loadimg.js"></script>
+<script src="./js/makeLabel.js"></script>
+
+</html>
